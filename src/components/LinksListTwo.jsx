@@ -9,7 +9,7 @@ export default function LinksListTwo(props) {
   ));
 
   return (
-    <div className="col-xs-12 col-sm-4 col-md-12 col-xl-4 wow zoomIn animated">
+    <div className="col-xs-12 col-sm-12 col-md-12 col-xl-4 wow zoomIn animated">
       <div className="links-list-wrapper ">
         <div className="links-list standard">
           <div className="value-box">

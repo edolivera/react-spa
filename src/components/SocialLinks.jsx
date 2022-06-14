@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './SocialLinks.css';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFacebook,faTwitter,faInstagram,faLinkedin} from "@fortawesome/fontawesome-free-brands";
