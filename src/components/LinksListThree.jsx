@@ -1,13 +1,6 @@
-import React, { useState } from "react";
-import { usefulLinks } from "../LinksData";
+import React from "react";
 
 export default function LinksListThree(props) {
-  const taskList = props.tasks?.map((task) => (
-    <li>
-      <a href={task.href}>{task.title}</a>
-    </li>
-  ));
-
   return (
     <div className="col-xs-12 col-sm-12 col-md-12 col-xl-4 wow zoomIn animated">
       <div className="links-list-wrapper ">
@@ -32,7 +25,7 @@ export default function LinksListThree(props) {
             </ul>
           </div>
           <div className="page-up">
-            <a href="#">
+            <a href="#top">
               <span>Page Up</span>
             </a>
           </div>

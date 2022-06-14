@@ -24,7 +24,7 @@ export default function MainNav() {
         <Navbar expand="lg" fixed="top" className="main-nav">
           <Container>
             <Navbar.Brand className="navbar-spa " href="#">
-              <a className="navbar-default" href="#">
+              <a className="navbar-default" href="#top">
                 <img src={logo} alt="Logo" />
               </a>
             </Navbar.Brand>

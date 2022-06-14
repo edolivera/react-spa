@@ -12,7 +12,7 @@ export default function Footer() {
           <p className="copyright">&copy; 2022 Site do Ed</p>
         </div>
         <div className="col">
-          <a href="#" className="arrow_up">
+          <a href="#top" className="arrow_up">
             {" "}
             <FontAwesomeIcon icon={faCircleArrowUp} />{" "}
           </a>

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { usefulLinksOne } from "../LinksData";
+import React from "react";
 
 export default function LinksListOne(props) {
   const taskList = props.tasks?.map((task) => (
@@ -26,7 +25,7 @@ export default function LinksListOne(props) {
             <ul>{taskList}</ul>
           </div>
           <div className="page-up">
-            <a href="#">
+            <a href="#top">
               <span>Page Up</span>
             </a>
           </div>
