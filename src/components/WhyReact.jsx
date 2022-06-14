@@ -1,4 +1,5 @@
 import React from "react";
+import './WhyReact.css';
 
 export default function WhyReact() {
   return (
@@ -7,18 +8,18 @@ export default function WhyReact() {
         <div className="container">
           <div className="row">
             <div
-              className="col-xs-12 col-sm-5 col-md-3 wow fadeInLeft animated"
-              data-wow-delay=".5s"
+              className="col-12 wow fadeInLeft animated p-5"
+              data-wow-delay=".5s" 
             >
               <h1>
                 <span>WHY REACT?</span>WATCH OUR TUTORIAL
               </h1>
             </div>
             <div
-              className="col-xs-12 col-sm-7 col-md-9 wow fadeInRight animated"
+              className="col-12 wow fadeInRight animated p-3"
               data-wow-delay=".5s"
             >
-              <h2>React/Bootstrap Single Page Application Tutorial </h2>
+              <h2>But briefly React is: </h2>
 
               <h4>Declarative</h4>
               <p>

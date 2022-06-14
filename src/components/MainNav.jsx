@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './MainNav.css'
 import logo from "../assets/img/logo.png";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
@@ -18,9 +19,9 @@ export default function MainNav() {
     return () => window.removeEventListener("scroll", navbarControl);
   }, []);
   return (
-    <div className={`nav ${show && "nav_bg"}`}>
+    <div className={`nav ${show && "nav-bg"}`}>
       <Container>
-        <Navbar expand="lg" fixed="top" className="MainNav">
+        <Navbar expand="lg" fixed="top" className="main-nav">
           <Container>
             <Navbar.Brand className="navbar-spa " href="#">
               <a className="navbar-default" href="#">
