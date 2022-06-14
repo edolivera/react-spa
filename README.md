@@ -38,3 +38,9 @@ https://fontawesome.com/v6/docs/web/use-with/react/
 npm i @fortawesome/fontawesome-free-brands
 https://www.npmjs.com/package/@fortawesome/fontawesome-free-brands
 
+
+
+## React SPA- Full Page View
+
+![React SPA - Full Page App View](react_spa_fullpage.png)
+
