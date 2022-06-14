@@ -1,4 +1,5 @@
 import React from "react";
+import './GetStarted.css';
 import SlideBg from "../assets/img/react_page.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -36,7 +37,7 @@ export default function GetStarted() {
             {/* Get Started*/}
 
             {/*First Col*/}
-            <div className="col-xs-12 col-sm-4 col-md-4">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-xl-4">
               <div className="row">
                 <FontAwesomeIcon
                   className="fa fa-apple iconfont"
@@ -87,15 +88,15 @@ export default function GetStarted() {
 
             {/*Second Col*/}
             <div
-              className="col-xs-12 col-sm-4 col-md-4 wow bounceIn animated textcenter"
+              className="col-xs-12 col-sm-12 col-md-12 col-xl-4 wow bounceIn animated textcenter"
               data-wow-delay=".4s"
             >
-              <img src={SlideBg} alt="slide-bg" />
+              <img src={SlideBg} alt="slide-bg" className="mb-5" />
             </div>
             {/*Second Col*/}
 
             {/*Third Col*/}
-            <div className="col">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-xl-4">
               <div className="row">
                 <div
                   className="col-xs-10 col-sm-10 col-md-10 wow fadeInRight animated textleft"
