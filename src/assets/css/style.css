@@ -3,9 +3,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Open Sans",sans-serif;
-    font-size:14px;
+    font-size:16px;
 }
-
 a {
     transition: all 0.35s ease 0s;
     -webkit-transition: all 0.35s ease 0s;
@@ -43,219 +42,6 @@ a {
     top: 41px;
     width: 82px;
 }
-.iconfont {
-    background: #fff none repeat scroll 0 0;
-    border: 1px solid #fff;
-    border-radius: 47%;
-    box-shadow: 6px 2px 5px #eee;
-    color: #410c05;
-    float: right;
-    font-size: 28px;
-    height: 35px;
-    margin-top: 45px;
-    padding: 12px;
-    text-align: center;
-    width: 35px;
-}
-.iconfont2 {
-   background: #fff none repeat scroll 0 0;
-    border: 1px solid #fff;
-    border-radius: 47%;
-    box-shadow: -6px 2px 5px #eee;
-    color: #410c05;
-    float: left;
-    font-size: 28px;
-    height: 35px;
-    margin-top: 45px;
-    padding: 12px;
-    text-align: center;
-    width: 35px;
-}
-.textright
-{
-    text-align:right;
-    margin-top:35px;
-    margin-bottom:35px;
-}
-.textleft
-{
-    text-align:left;
-    margin-top:35px;
-    margin-bottom:35px;
-}
-.textcenter
-{
-    text-align:center;
-}
-
-a {
-    color: #410c05;
-    text-decoration: none;
-}
-a:hover {
-    color: #ddd;
-    text-decoration: none;
-}
-
-/*-------- links-list --------------*/
-.links-list-wrapper .links-list-title {
-    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border-color: #ededed #ededed #ededed;
-    border-image: none;
-    border-style: solid solid none;
-    border-width: 1px 1px medium;
-    font-weight: normal;
-    line-height: 0;
-    margin: 0;
-    padding: 1.3em 1em;
-    text-align: center;
-      box-shadow: 0 -2px 2px #F5F5F5;
-    -webket-box-shadow: 0 -2px 2px #F5F5F5;
-     -moz-box-shadow: 0 -2px 2px #F5F5F5;
-	 font-family: "Oswald";
-}
-.links-list-wrapper .value-box {
-    background: #f5f5f5 none repeat scroll 0 0;
-    color: #434343;
-    cursor: default;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-}
-.links-list-wrapper .value-box .value-box-content {
-    display: inline-block;
-    line-height: 1;
-    vertical-align: bottom;
-}
-.links-list-wrapper .value-box .value {
-    display: inline-block;
-    font-size: 60px;
-    line-height: 38px;
-    position: relative;
-    vertical-align: top;
-	font-family: "Oswald";
-}
-.links-list-wrapper .value-box .meta {
-    background: #ddd none repeat scroll 0 0;
-    border-radius: 0;
-    color: #afdcd3;
-    display: block;
-    font-size: 11px;
-    font-weight: bold;
-    height: auto;
-    letter-spacing: 1px;
-    line-height: 1em;
-    margin: 50px auto 0;
-    padding: 0.8em 0.5em;
-    text-transform: uppercase;
-}
-
-.links-list-wrapper .links-list .content-box { 
-    border-color: #ededed;
-    border-image: none;
-    border-style: solid;
-    border-width: 0 1px;
-    color: #6e6e6e;
-    padding: 15px 30px;
-}
-.links-list-wrapper .links-list .content-box ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
-.links-list-wrapper .links-list .content-box ul li {
-    border-bottom: 1px solid #ededed;
-    color: #2b2f34;
-    line-height: 1em;
-    padding: 18px 0;
-    text-align: center;
-}
-.links-list-wrapper .links-list .page-up {   
-    border-color: #ededed #ededed #ededed;
-    border-image: none;
-    border-style: none solid solid;
-    border-width: 0 1px 1px;
-    padding: 10px 10px 25px;
-    text-align: center;
-    box-shadow: 0 2px 2px #ddd;
-    -webket-box-shadow: 0 2px 2px #ddd;
-     -moz-box-shadow: 0 2px 2px #ddd;
-}
-.page-up a {
-    border: 1px solid;
-    border-radius: 3px;
-    color: #410c05;
-    padding: 10px 0;
-    text-decoration: none;
-    position:relative;
-}
-.page-up a::after {
-    background: #fff none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    height: 0;
-    left: 0;
-    position: absolute;
-    transition: all 0.3s ease 0s;
-    width: 100%;
-    z-index: -1;
-}
-.page-up a:hover::after {
-    background: #410c05 none repeat scroll 0 0;
-    bottom: 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    color:#fff;
-    transition: all 0.3s ease 0s;
-    width: 100%;
-    z-index: -1;
-}
-.page-up a span
-{
-    position:relative;
-    z-index:999;
-    padding: 10px 30px;
-    width:100%;
-}
-.page-up a span:hover
-{
-    color:#fff;
-}
-
-.links-list-wrapper .value-box .month {
-    background: #410c05 none repeat scroll 0 0;
-    border-radius: 0;
-    color: #fff;
-    display: block;
-    font-size: 11px;
-    font-weight: bold;
-    height: auto;
-    letter-spacing: 1px;
-    line-height: 1em;
-    margin: 50px auto 0;
-    padding: 0.8em 0.5em;
-    text-transform: uppercase;
-}
-.standard .value-box {
-    background: #FFC440 none repeat scroll 0 0;
-    position: relative;
-}
-.standard .value-box::before {
-    color: #ddd;
-    font-size: 34px;
-    font-style: normal;
-    left: 50%;
-    line-height: normal;
-    margin-left: -17px;
-    position: absolute;
-    top: 25px;
-    z-index: 1;
-}
-.links-list-wrapper {
-    margin-bottom: 50px;
-}
 
 /*-------- resposive css --------------*/
 
@@ -292,16 +78,11 @@ a:hover {
     margin-bottom: 30px;
     padding: 20px 0;
 }
-.navbar-collapse {
-    background: #410c05;
-}
+
 .textcenter.animated img {
     width: 50% !important;
 }
 #why-react {
-    padding: 80px 0;
-}
-#how-it-works {
     padding: 80px 0;
 }
 }
@@ -354,7 +135,7 @@ a:hover {
 }
 @media (max-width:480px) 
 {
-    header {  
+header {  
     height: 578px;
 }
  header .header-content {
@@ -391,16 +172,10 @@ a:hover {
 .textcenter.animated img {
     width: 50% !important;
 }
-#about {
-    padding: 80px 0;
-}
-#how-it-works {
-    padding: 80px 0;
-}
 }
 @media (max-width:360px) 
 {
-       header {  
+header {  
     height: 544px;
 }
 .iconfont2 {
