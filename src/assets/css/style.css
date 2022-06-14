@@ -124,41 +124,6 @@ a {
      width: 100%;   
      position:relative;
 }
-.btn-free-download{
-    background: #410c05 none repeat scroll 0 0;
-    border: medium none;
-    width: 250px;
-    border-radius: 20px;
-    font-weight:bold;
-    padding-top:0;
-    padding-bottom:0;
-    padding-right:0;
-    padding-left:28px;
-    position:relative;    
-    transition: all .5s ease-in-out 0s;
-    -webkit-transition: all .5s ease-in-out 0s;
-     -moz-transition: all .5s ease-in-out 0s;
-}
-.btn-free-download span {
-    position: relative;
-    vertical-align: 20px;
-    font-size: larger;
-}
-.btn-free-download:hover {
-    background: #fff none repeat scroll 0 0;
-    color:#410c05;   
-}
-.btn-free-download .fa-file-arrow-down {
-    background: #fff none repeat scroll 0 0;
-    border-radius: 20px;
-    color: #410c05;
-    margin-left: 64px;
-    padding: 22px;
-    position: relative;
-    z-index: 89;
-    cursor: pointer;
-}
-
 .social-links {
     list-style: outside none none;
     margin: 0 0 20px 0px;
@@ -239,66 +204,6 @@ a:hover {
     text-decoration: none;
 }
 
-/*-------- header css --------------*/
-header {
-    background:url("../img/bg_slilder-3.jpg") ;
-    background-attachment:fixed;
-    background-size:cover;
-    height: 800px;
-    color: #fff;
-    transition: all 0.35s ease 0s;
-    -webkit-transition: all 0.35s ease 0s;
-     -moz-transition: all 0.35s ease 0s;
-overflow:hidden;	 
-}
-header .header-content {
-   margin-top: 200px;
-}
-.header-content img {
-    width: 100%;
-      z-index: 999;
-      position:relative;
-      margin-top: 155px;
-}
-.header-content h2 {
-    font-size: 44px;
-    margin-bottom: 28px;
-	font-family: "Oswald";
-}
-.header-content h3 {
-    font-size: 36px;
-    text-align: left;
-    margin-bottom: 28px;
-    color: #410c05;
-	font-family: "Oswald";
-    font-weight: bold;
-}
-.header-content p {
-    color: #ddd;
-    text-align: left;
-    font-size: 16px;
-    margin-bottom: 28px;
-	font-family: "Oswald";
-    font-weight: bold;
-}
-.header-content .btn-ornge {
-    background: #410c05 none repeat scroll 0 0;
-    border: medium none;
-    border-radius: 20px;
-    font-weight:bold;
-    padding-top:0;
-    padding-bottom:0;
-    padding-right:0;
-    padding-left:28px;
-    position:relative;    
-    transition: all .5s ease-in-out 0s;
-    -webkit-transition: all .5s ease-in-out 0s;
-     -moz-transition: all .5s ease-in-out 0s;
-}
-.header-content .btn-ornge:hover {
-    background: #fff none repeat scroll 0 0;
-    color:#410c05;   
-}
 
 /*-------- contact --------------*/
 .contact {

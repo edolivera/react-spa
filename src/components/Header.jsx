@@ -1,5 +1,6 @@
-import React from 'react'
-import Phones from '../assets/img/devices2.png'
+import React from 'react';
+import Phones from '../assets/img/devices2.png';
+import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
