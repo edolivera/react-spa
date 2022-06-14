@@ -1,4 +1,5 @@
 import React from "react";
+import './Contact.css';
 import { Form, Button } from "react-bootstrap";
 
 export default function Contact() {
