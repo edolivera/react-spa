@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './UsefulLinks.css';
 import { usefulLinksOne } from "../LinksData";
 import { usefulLinksTwo } from "../LinksData";
 import LinksListOne from "./LinksListOne";
@@ -27,12 +28,9 @@ export default function UsefulLinks() {
               It's all ours and under Creative Commons License!
               </p>
             </div>
-
             <LinksListOne tasks={usefulLinksOne}/>
             <LinksListTwo tasksTwo={usefulLinksTwo}/>
             <LinksListThree />
-
-            
           </div>
         </div>
       </section>

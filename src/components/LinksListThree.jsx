@@ -9,7 +9,7 @@ export default function LinksListThree(props) {
   ));
 
   return (
-    <div className="col-xs-12 col-sm-4 col-md-4 wow zoomIn animated">
+    <div className="col-xs-12 col-sm-4 col-md-12 col-xl-4 wow zoomIn animated">
       <div className="links-list-wrapper ">
         <div className="links-list">
           <div className="value-box">
@@ -25,9 +25,10 @@ export default function LinksListThree(props) {
             <ul>
               <li>This layout was inspired by a template called: "Canvas"</li>
               <li>from http://templatestock.co/</li>
-              <li>Unfortunately, I don't know what happened to this company, nor who its author is.</li>
-              <li> So, my sincere apologies as I don't have any other information about theirs</li>
-              <li>and I thank you anyway!</li>
+              <li>Which unfortunately no longer exists...</li>
+              <li> So, my sincere apologies</li>
+              <li> Because I don't have any link from it's original</li>
+              <li>But thanks to the company anyway!</li>
             </ul>
           </div>
           <div className="page-up">

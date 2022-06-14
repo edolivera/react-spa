@@ -9,7 +9,7 @@ export default function LinksListOne(props) {
   ));
 
   return (
-    <div className="col-xs-12 col-sm-4 col-md-4 wow fadeInLeft animated">
+    <div className="col-xs-12 col-sm-4 col-md-12 col-xl-4 wow fadeInLeft animated">
       <div className="links-list-wrapper ">
         <div className="links-list">
           <div className="value-box">
