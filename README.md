@@ -17,6 +17,8 @@ The first one of our free react tutorial series. Before you begin, if you want t
 
 ### Dependencies
 npm install react-bootstrap bootstrap
+{/* The following line can be included in your src/index.js or App.js file*/}
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 ### Import Google Fonts
