@@ -16,7 +16,7 @@ export default function LinksListThree(props) {
 
           <div className="content-box">
             <ul>
-              <li>This layout was inspired by a template called: "Canvas"</li>
+              <li>This layout was inspired by "Canvas Template"</li>
               <li>from http://templatestock.co/</li>
               <li>Which unfortunately no longer exists...</li>
               <li> So, my sincere apologies</li>
