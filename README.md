@@ -1,8 +1,15 @@
-# Welcome to the React SPA (Single Page Applcation) Tutorial
+# Welcome to the React SPA Tutorial
 
 The first one of our free react tutorial series. Before you begin, if you want to see the final app, please visit the link below:
 
 [React SPA - Demo](https://react-singlepageapp.netlify.app/)
+
+## Author
+Vieira, Edson
+
+### License
+
+MIT 
 
 ## Pre-requisites:
 * You need to have NPM 5.2+ installed
@@ -14,10 +21,14 @@ The first one of our free react tutorial series. Before you begin, if you want t
 * Then type: npm start
 * And open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Or Watch our Youtube's tutorial
+![Update it later](https://www.youtube.com/watch?v=5xcZpDNiw14&t=4s)
 
 ### Dependencies
 npm install react-bootstrap bootstrap
-{/* The following line can be included in your src/index.js or App.js file*/}
+
+The following line can be included in your src/index.js or App.js file:
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -29,7 +40,7 @@ Copy and Paste in index.html (in public folder):
 
 ### Install FontAwesome 
 npm i --save @fortawesome/fontawesome-svg-core
-# Free icons styles
+### Free icons styles
 npm i --save @fortawesome/free-solid-svg-icons
 npm i --save @fortawesome/free-regular-svg-icons
 npm i --save @fortawesome/react-fontawesome@latest
